@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+         
+        function sliceEx(value,a,b){
+        if(a<0 && b<0) {
+    let temp="";
+    if(a<=(value.length)){
+        a=-(value.length) 
+    }
+    
+    for(i=value.length+a;i<value.length+b;i++){
+        temp=temp+value[i]
+    }
+    
+    console.log(temp);
+}
+        }sliceEx("helloworld",-3,-5)
+    </script>
+</body>
+</html>
